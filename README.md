@@ -25,7 +25,7 @@ The two optional parameters will have default values of 0 and 1 and will determi
 
 * and after all that .. we tested the code
 
-
+it took about 3 hour
 
 ## PR link : https://github.com/fadiHB/math-series/pull/1
 
