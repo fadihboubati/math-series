@@ -12,7 +12,7 @@ fibonacci(0) == 0, fibonacci(1) == 1, fibonacci(2) == 1, etc.
 2, 1, 3, 4, 7, 11, 18, 29, ...
 
 
-#### so .. what do we have here
+###  ***so .. what do we have here***
 
 * we Created a function called fibonacci. had one parameter n. The function should returned the nth value in the fibonacci series. 
 
