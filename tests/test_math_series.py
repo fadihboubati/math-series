@@ -26,12 +26,22 @@ def test_lucas_ten():
     expected = 123
     assert actual == expected
 
-def test_sum_series_five():
-    actual = sum_series(5)
-    expected = {'fibonacci_result':5,'luces_result':11}
+# def test_sum_series_five():
+#     actual = sum_series(5)
+#     expected = {'fibonacci_result':5,'luces_result':11}
+#     assert actual == expected
+
+# def test_sum_series_ten():
+#     actual = sum_series(10)
+#     expected = {'fibonacci_result':55,'luces_result':123}
+#     assert actual == expected
+
+def test_sum_series_five_fib():
+    actual = sum_series(5) # by default the second and third arguments are 0 and 1
+    expected = 5
     assert actual == expected
 
-def test_sum_series_ten():
-    actual = sum_series(10)
-    expected = {'fibonacci_result':55,'luces_result':123}
+def test_sum_series_five_luc():
+    actual = sum_series(5,2,1)
+    expected = 11
     assert actual == expected
